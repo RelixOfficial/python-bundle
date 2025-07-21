@@ -9,7 +9,7 @@
   <p>
     <a href="https://npmjs.com/package/python-bundle"><img src="https://img.shields.io/npm/v/python-bundle.svg" alt="npm version"></a>
     <a href="https://npmjs.com/package/python-bundle"><img src="https://img.shields.io/npm/dm/python-bundle.svg" alt="npm downloads"></a>
-    <a href="https://github.com/RelixOfficial/python-bundle/blob/main/LICENSE"><img src="https://img.shields.io/github/license/RelixOfficial/python-bundle.svg" alt="license"></a>
+    <a href="https://github.com/RelixOfficial/python-bundle/blob/master/LICENSE"><img src="https://img.shields.io/github/license/RelixOfficial/python-bundle.svg" alt="license"></a>
   </p>
 </div>
 
