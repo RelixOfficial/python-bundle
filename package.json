@@ -1,0 +1,64 @@
+{
+  "name": "python-bundle",
+  "version": "3.7.0",
+  "description": "Self-contained Python 3 + pip runtime embedded in Node.js",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/install_python.mjs",
+    "prepare": "node scripts/prepare_python.mjs"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "RelixOfficial",
+    "email": "dzakyadis9@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RelixOfficial/python-bundle.git"
+  },
+  "homepage": "https://github.com/RelixOfficial/python-bundle",
+  "keywords": [
+    "python",
+    "pip",
+    "miniforge",
+    "portable python",
+    "embedded python",
+    "python runtime",
+    "python nodejs",
+    "python integration",
+    "nodejs python",
+    "pterodactyl",
+    "heroku",
+    "docker",
+    "serverless",
+    "bot",
+    "automation",
+    "scraping",
+    "machine learning",
+    "Python",
+    "python bundle",
+    "python embedded",
+    "node module",
+    "run python"
+  ],
+  "files": [
+    "package.json",
+    "index.cjs",
+    "index.mjs",
+    "scripts/*.mjs"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "tar": "^6.1.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  }
+}
