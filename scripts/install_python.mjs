@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 import os from 'os';
 
 const arch = os.arch(); // 'x64' or 'arm64'
-const version = '3.7';
+const version = '3.12';
 // 5 dan 6 not found
 const urls = {
   '3.5': {
